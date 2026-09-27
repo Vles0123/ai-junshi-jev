@@ -1,0 +1,12 @@
+.env
+env
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+dist/
+build/
+*.app/
+*.zip
+.config/
