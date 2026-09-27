@@ -62,7 +62,14 @@
 
 ## 从源码运行
 
-需要 Apple 芯片 Mac、Python 3.12 和 [uv](https://docs.astral.sh/uv/)。在项目目录执行：
+需要 Apple 芯片 Mac、Python 3.12 和 [uv](https://docs.astral.sh/uv/)。可直接克隆完整仓库：
+
+```sh
+git clone https://github.com/Vles0123/ai-junshi-jev.git
+cd ai-junshi-jev
+```
+
+然后在项目目录执行：
 
 ```sh
 uv sync --frozen --python 3.12
@@ -70,7 +77,7 @@ uv run python src/vles_bootstrap.py
 uv run python src/hud.py
 ```
 
-也可以双击 `start.command`。命令行运行时，系统权限可能归属终端/Python；正式使用建议构建应用。
+也可以先执行 `chmod +x start.command`，再双击 `start.command`。命令行运行时，系统权限可能归属终端/Python；正式使用建议构建应用。
 
 ### 构建安装包
 
